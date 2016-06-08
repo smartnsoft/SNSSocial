@@ -121,7 +121,7 @@ It is developed and maintained by [Smart&Soft](http://www.smartnsoft.com).
 
 ## Changelog
 
-The changelog is available on the dedicated [file](https://github.com/smartnsoft/SNSSocial/CHANGELOG.MD).
+The changelog is available on the dedicated [file](https://github.com/smartnsoft/SNSSocial/blob/master/CHANGELOG.md).
 
 ## License
 
