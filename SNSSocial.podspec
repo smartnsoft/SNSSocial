@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SNSSocial'
-  s.version      = '2.0'
+  s.version      = '2.0.0'
   s.homepage     = 'http://www.smartnsoft.com'
   s.license      = 'Free'
   s.summary      = 'An iOS framework built by Smart&Soft, cutting edge mobile agency in France.'
