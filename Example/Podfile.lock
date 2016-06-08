@@ -1,0 +1,50 @@
+PODS:
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - FBSDKCoreKit (4.12.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.12.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.12.0):
+    - FBSDKCoreKit
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - SNSSocial (2.0):
+    - SNSSocial/Facebook (= 2.0)
+    - SNSSocial/Twitter (= 2.0)
+  - SNSSocial/Facebook (2.0):
+    - FBSDKCoreKit (= 4.12.0)
+    - FBSDKLoginKit (= 4.12.0)
+    - FBSDKShareKit (= 4.12.0)
+  - SNSSocial/Twitter (2.0):
+    - STTwitter (= 0.2.4)
+  - STTwitter (0.2.4)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - SNSSocial (from `../`)
+
+EXTERNAL SOURCES:
+  SNSSocial:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  FBSDKCoreKit: 6e56d5a2a64a755ad4efb5dbeee8f82fb1b99775
+  FBSDKLoginKit: 03f68a8d48c2c8bb81d7eb8097973d483543e1f6
+  FBSDKShareKit: df1491f064cffc8ebcc3fc8b71be94cc190c728e
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  SNSSocial: a1d2e66371a7ae9d536f6d24f44ec0e390b11dae
+  STTwitter: a82de278afbd4191d0a07f4f3ffd8f1fb8404da0
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'SNSSocial_Example' do
+  pod 'SNSSocial', :path => '../'
+
+  target 'SNSSocial_Tests' do
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end
