@@ -16,7 +16,7 @@ The 2.X is written in Objective-C (but fully compatible Swift). We are currently
 
 - [x] Login / Logout, permissions
 - [x] User informations
-- [x] Facebook posts (message, link, images)
+- [x] Facebook posts (messages, links, images)
 - [x] Like something
 - [ ] My new awesome feature not available yet
 
@@ -24,7 +24,7 @@ The 2.X is written in Objective-C (but fully compatible Swift). We are currently
 
 - [x] Login / Logout
 - [x] User informations (name, picture)
-- [x] Post Tweets (simple message, picture, geolocalized picture)
+- [x] Post Tweets (simple messages, pictures, geolocalized pictures)
 - [ ] My new awesome feature not available yet
 
 ## Documentation
@@ -47,7 +47,7 @@ You can simply add the library to your project by using CocoaPods.
 ```
 pod 'SNSSocial', '~> 2.0'
 ```
-No need of all social networks ? It is possible to specify what network use.
+No need of all social networks ? It is possible to specify what network to use.
 
 ```
 pod 'SNSSocial/Facebook', '~> 2.0'
@@ -73,9 +73,9 @@ For Twitter SDK, simply add the `TwitterAPIKey`, `TwitterAPISecret` and `Twitter
 ### Sample code - Share a link on facebook
 
 ```
-[SNSFacebookInteractions postLink:@"http://smartnsoft.com/"
-                        withTitle:@"Smart&Soft"
-                      description:nil
+[SNSFacebookInteractions postLink:@"https://github.com/smartnsoft/SNSSocial"
+                        withTitle:@"SNSSocial"
+                      description:@"Discover SNSSocial, an iOS library to interact with social networks in your app!"
                        pictureUrl:nil
              	 parentController:self
                       completion:^(id result, NSError * error)
@@ -112,10 +112,9 @@ For Twitter SDK, simply add the `TwitterAPIKey`, `TwitterAPISecret` and `Twitter
 ## Communication
 
 SNSSocial is one of the Smart&Soft Libraries dedicated to the iOS Development. 
-It is developed and maintained by [Smart&Soft](http://www.smartnsoft.com).
+It is developed and maintained by [Smart&Soft](http://www.smartnsoft.com), a cutting edge mobile agency in France..
 
 - If you found a **bug**, open an **issue**. [Github issue page](https://github.com/smartnsoft/SNSSocial/issues).
-
 - If you have a **feature request**, open an **issue**.
 - If you want to **contribute**, submit a **pull request**.
 

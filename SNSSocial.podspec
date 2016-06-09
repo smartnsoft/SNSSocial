@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'SNSSocial'
-  s.version      = '2.0.0'
-  s.homepage     = 'http://www.smartnsoft.com'
+  s.version      = '2.0.1'
+  s.homepage     = 'https://github.com/smartnsoft/SNSSocial'
   s.license      = 'Free'
-  s.summary      = 'An iOS framework built by Smart&Soft, cutting edge mobile agency in France.'
-  s.description  = 'SNSSocial - An iOS library to interact easily with social networks in your app.'
+  s.summary      = 'Make social networks management easier on iOS.'
+  s.description  = 'An iOS library built by Smart&Soft, cutting edge mobile agency in France.'
   s.author = {
     'Smart&Soft' => 'contact@smartnsoft.com'
   }
