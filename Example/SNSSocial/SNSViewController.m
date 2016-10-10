@@ -95,7 +95,7 @@
     }];
     
 #pragma mark - Twitter Sharing
-    SNSSocialItem* shareTwitter = [SNSSocialItem socialTestItemNamed:@"Sahre with Twitter" completion:^{
+    SNSSocialItem* shareTwitter = [SNSSocialItem socialTestItemNamed:@"Share with Twitter" completion:^{
         [SNSTwitter postTweetWithMessage:@"Sample tweet with SNSSocial #iosdev"
                 fromParentViewController:self
                               completion:^(id result, NSError * _Nullable error)
@@ -157,7 +157,7 @@
     }];
     
 #pragma mark - Facebook Sharing
-    SNSSocialItem* facebookShare = [SNSSocialItem socialTestItemNamed:@"Facebook Share" completion:^{
+    SNSSocialItem* facebookShare = [SNSSocialItem socialTestItemNamed:@"Facebook Share Link" completion:^{
         [SNSFacebookInteractions postLink:@"http://smartnsoft.com/"
                                 withTitle:@"SNSSocial"
                               description:@"I shared this link with SNSSocial, an iOS library to interact easily with social networks in your app."

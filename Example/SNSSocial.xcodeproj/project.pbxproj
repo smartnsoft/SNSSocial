@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F319D29987E21ECA94DF1A6 /* Pods_SNSSocial_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080E936707309C8C24197276 /* Pods_SNSSocial_Example.framework */; };
 		44C27E481CF7407800BF9E51 /* SNSSocialItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C27E471CF7407800BF9E51 /* SNSSocialItem.m */; };
 		44C27E4A1CF74CB500BF9E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C27E491CF74CB500BF9E51 /* LaunchScreen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,9 +23,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		66D6549EA6C773A4648CF522 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DABCCA9E48E2187EE7DDB10 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework */; };
+		648930792254A2FBED085783 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97624C55876FFB3EBC683D1 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		922B9574A0B4FE5958A2E9FA /* Pods_SNSSocial_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186C8FDA72C5516932492497 /* Pods_SNSSocial_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		186C8FDA72C5516932492497 /* Pods_SNSSocial_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSSocial_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		287B484EE4A4BB00B720D3D7 /* Pods-SNSSocial_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSSocial_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSSocial_Example/Pods-SNSSocial_Example.release.xcconfig"; sourceTree = "<group>"; };
+		080E936707309C8C24197276 /* Pods_SNSSocial_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSSocial_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCC190F8E77B449DA1A5790 /* Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSSocial_Example-SNSSocial_Tests/Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44C27E461CF7407800BF9E51 /* SNSSocialItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNSSocialItem.h; sourceTree = "<group>"; };
 		44C27E471CF7407800BF9E51 /* SNSSocialItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNSSocialItem.m; sourceTree = "<group>"; };
 		44C27E491CF74CB500BF9E51 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F1229FEF07D9E3EDC0E5DDA /* Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSSocial_Example-SNSSocial_Tests/Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SNSSocial_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSSocial_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,12 +63,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6433F30C5D6B13D2F5C211DD /* Pods-SNSSocial_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSSocial_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSSocial_Example/Pods-SNSSocial_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7488C93E3742268A99580E49 /* Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSSocial_Example-SNSSocial_Tests/Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7DABCCA9E48E2187EE7DDB10 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSSocial_Example_SNSSocial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		626637D1273CB81CD5033AF0 /* Pods-SNSSocial_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSSocial_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSSocial_Example/Pods-SNSSocial_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7F9DA47B7D02488DC6E17626 /* Pods-SNSSocial_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSSocial_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSSocial_Example/Pods-SNSSocial_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CD1E35B9189380279098587E /* SNSSocial.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SNSSocial.podspec; path = ../SNSSocial.podspec; sourceTree = "<group>"; };
-		E55184FABE7EBBED63F641B1 /* Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSSocial_Example-SNSSocial_Tests/Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D97624C55876FFB3EBC683D1 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSSocial_Example_SNSSocial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7C2F6BE2D5B3C77E04B452 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F3A4C09D8EF134C2B67DF191 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				922B9574A0B4FE5958A2E9FA /* Pods_SNSSocial_Example.framework in Frameworks */,
+				0F319D29987E21ECA94DF1A6 /* Pods_SNSSocial_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,20 +91,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				66D6549EA6C773A4648CF522 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework in Frameworks */,
+				648930792254A2FBED085783 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		211F5AC316EB7391B5F58A9F /* Pods */ = {
+		11D1638977B16B697D38C8E2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6433F30C5D6B13D2F5C211DD /* Pods-SNSSocial_Example.debug.xcconfig */,
-				287B484EE4A4BB00B720D3D7 /* Pods-SNSSocial_Example.release.xcconfig */,
-				E55184FABE7EBBED63F641B1 /* Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig */,
-				7488C93E3742268A99580E49 /* Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig */,
+				7F9DA47B7D02488DC6E17626 /* Pods-SNSSocial_Example.debug.xcconfig */,
+				626637D1273CB81CD5033AF0 /* Pods-SNSSocial_Example.release.xcconfig */,
+				5F1229FEF07D9E3EDC0E5DDA /* Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig */,
+				0BCC190F8E77B449DA1A5790 /* Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -117,7 +117,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				211F5AC316EB7391B5F58A9F /* Pods */,
+				11D1638977B16B697D38C8E2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,8 +137,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				186C8FDA72C5516932492497 /* Pods_SNSSocial_Example.framework */,
-				7DABCCA9E48E2187EE7DDB10 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework */,
+				080E936707309C8C24197276 /* Pods_SNSSocial_Example.framework */,
+				D97624C55876FFB3EBC683D1 /* Pods_SNSSocial_Example_SNSSocial_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,12 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "SNSSocial_Example" */;
 			buildPhases = (
-				DA2EC5CA4794E81211C2AADF /* Check Pods Manifest.lock */,
+				B08C70DE6252DF70CA707F8A /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8F34578BA6B2C01AB5C3CBDC /* Embed Pods Frameworks */,
-				702C1AF03F407B8CFAA7A47D /* Copy Pods Resources */,
+				301439C88658DB2EF5329491 /* [CP] Embed Pods Frameworks */,
+				994E450D42694A0E44DE2423 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,12 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SNSSocial_Tests" */;
 			buildPhases = (
-				A56AC11AE33DF9AB64E31A40 /* Check Pods Manifest.lock */,
+				79A86227869429F1A2A16DE1 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				2052125EA35293C062B8D55D /* Embed Pods Frameworks */,
-				0E9BFD5D8B8AE8F0CB8BC4DE /* Copy Pods Resources */,
+				89B8C5AC501798CE04C7A2BF /* [CP] Embed Pods Frameworks */,
+				1B1475E31A33C84CCF73BD31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,14 +303,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E9BFD5D8B8AE8F0CB8BC4DE /* Copy Pods Resources */ = {
+		1B1475E31A33C84CCF73BD31 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,44 +318,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSSocial_Example-SNSSocial_Tests/Pods-SNSSocial_Example-SNSSocial_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2052125EA35293C062B8D55D /* Embed Pods Frameworks */ = {
+		301439C88658DB2EF5329491 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSSocial_Example-SNSSocial_Tests/Pods-SNSSocial_Example-SNSSocial_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		702C1AF03F407B8CFAA7A47D /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSSocial_Example/Pods-SNSSocial_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F34578BA6B2C01AB5C3CBDC /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,14 +333,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSSocial_Example/Pods-SNSSocial_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A56AC11AE33DF9AB64E31A40 /* Check Pods Manifest.lock */ = {
+		79A86227869429F1A2A16DE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,14 +348,44 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DA2EC5CA4794E81211C2AADF /* Check Pods Manifest.lock */ = {
+		89B8C5AC501798CE04C7A2BF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSSocial_Example-SNSSocial_Tests/Pods-SNSSocial_Example-SNSSocial_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		994E450D42694A0E44DE2423 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNSSocial_Example/Pods-SNSSocial_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08C70DE6252DF70CA707F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,7 +520,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6433F30C5D6B13D2F5C211DD /* Pods-SNSSocial_Example.debug.xcconfig */;
+			baseConfigurationReference = 7F9DA47B7D02488DC6E17626 /* Pods-SNSSocial_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -540,7 +540,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287B484EE4A4BB00B720D3D7 /* Pods-SNSSocial_Example.release.xcconfig */;
+			baseConfigurationReference = 626637D1273CB81CD5033AF0 /* Pods-SNSSocial_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -559,7 +559,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E55184FABE7EBBED63F641B1 /* Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5F1229FEF07D9E3EDC0E5DDA /* Pods-SNSSocial_Example-SNSSocial_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -583,7 +583,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7488C93E3742268A99580E49 /* Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig */;
+			baseConfigurationReference = 0BCC190F8E77B449DA1A5790 /* Pods-SNSSocial_Example-SNSSocial_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

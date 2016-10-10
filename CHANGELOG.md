@@ -1,5 +1,11 @@
 ##SNSSocial
 
+###2.0.1
+
+Updates FBSDK & STTwitter dependencies
+
+Ensures compatibility with iOS 10
+
 ###2.0
 
 First public version

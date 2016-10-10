@@ -2,7 +2,7 @@
 
 Make social networks management easier on iOS.
 
-The 2.X is written in Objective-C (but fully compatible Swift). We are currently working on a full-Swift branch which should be available for the version 3.0.
+The version 2.X is written in Objective-C (but fully compatible Swift). We are currently working on a full-Swift branch which should be available for the version 3.0.
 
 ## Specifications
 
@@ -15,7 +15,7 @@ The 2.X is written in Objective-C (but fully compatible Swift). We are currently
 ### Facebook Features
 
 - [x] Login / Logout, permissions
-- [x] User informations
+- [x] User information
 - [x] Facebook posts (messages, links, images)
 - [x] Like something
 - [ ] My new awesome feature not available yet
@@ -23,8 +23,8 @@ The 2.X is written in Objective-C (but fully compatible Swift). We are currently
 ### Twitter Features
 
 - [x] Login / Logout
-- [x] User informations (name, picture)
-- [x] Post Tweets (simple messages, pictures, geolocalized pictures)
+- [x] User information (name, picture)
+- [x] Tweets (simple messages, pictures, geolocalized messages)
 - [ ] My new awesome feature not available yet
 
 ## Documentation
@@ -47,7 +47,7 @@ You can simply add the library to your project by using CocoaPods.
 ```
 pod 'SNSSocial', '~> 2.0'
 ```
-No need of all social networks ? It is possible to specify what network to use.
+No need of all social networks? It is possible to specify what network to use.
 
 ```
 pod 'SNSSocial/Facebook', '~> 2.0'
@@ -112,7 +112,7 @@ For Twitter SDK, simply add the `TwitterAPIKey`, `TwitterAPISecret` and `Twitter
 ## Communication
 
 SNSSocial is one of the Smart&Soft Libraries dedicated to the iOS Development. 
-It is developed and maintained by [Smart&Soft](http://www.smartnsoft.com), a cutting edge mobile agency in France..
+It is developed and maintained by [Smart&Soft](http://www.smartnsoft.com), a cutting edge mobile agency in France.
 
 - If you found a **bug**, open an **issue**. [Github issue page](https://github.com/smartnsoft/SNSSocial/issues).
 - If you have a **feature request**, open an **issue**.

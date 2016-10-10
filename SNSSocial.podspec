@@ -20,14 +20,14 @@ Pod::Spec.new do |s|
 
 s.subspec "Twitter" do |sp|
   sp.ios.source_files = "SNSSocial/Classes/Twitter/**/*.{h,m}"
-  sp.ios.dependency     'STTwitter', '0.2.4'
+  sp.ios.dependency     'STTwitter', '0.2.5'
 end
 
 s.subspec "Facebook" do |sp|
   sp.ios.source_files   = "SNSSocial/Classes/Facebook/**/*.{h,m}"
-  sp.ios.dependency     'FBSDKCoreKit',   '4.12.0'
-  sp.ios.dependency     'FBSDKShareKit',  '4.12.0'
-  sp.ios.dependency     'FBSDKLoginKit',  '4.12.0'
+  sp.ios.dependency     'FBSDKCoreKit',   '4.16.0'
+  sp.ios.dependency     'FBSDKShareKit',  '4.16.0'
+  sp.ios.dependency     'FBSDKLoginKit',  '4.16.0'
   sp.ios.xcconfig       = {'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'}
 end
 
