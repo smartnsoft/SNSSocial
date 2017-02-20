@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SNSSocial'
-  s.version      = '2.0.1'
+  s.version      = '2.0.2'
   s.homepage     = 'https://github.com/smartnsoft/SNSSocial'
   s.license      = 'Free'
   s.summary      = 'Make social networks management easier on iOS.'
@@ -25,9 +25,9 @@ end
 
 s.subspec "Facebook" do |sp|
   sp.ios.source_files   = "SNSSocial/Classes/Facebook/**/*.{h,m}"
-  sp.ios.dependency     'FBSDKCoreKit',   '4.16.0'
-  sp.ios.dependency     'FBSDKShareKit',  '4.16.0'
-  sp.ios.dependency     'FBSDKLoginKit',  '4.16.0'
+  sp.ios.dependency     'FBSDKCoreKit',   '4.19.0'
+  sp.ios.dependency     'FBSDKShareKit',  '4.19.0'
+  sp.ios.dependency     'FBSDKLoginKit',  '4.19.0'
   sp.ios.xcconfig       = {'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'}
 end
 

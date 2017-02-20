@@ -10,7 +10,7 @@ The version 2.X is written in Objective-C (but fully compatible Swift). We are c
 
 - Minimum iOS versions required : **8.0**.
 - Swift or Objective-C project
-- Xcode 7.3+
+- Xcode 8.1+
 
 ### Facebook Features
 

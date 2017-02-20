@@ -5,11 +5,11 @@ PODS:
   - Bolts/AppLinks (1.8.4):
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
-  - FBSDKCoreKit (4.16.0):
+  - FBSDKCoreKit (4.19.0):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.16.0):
+  - FBSDKLoginKit (4.19.0):
     - FBSDKCoreKit
-  - FBSDKShareKit (4.16.0):
+  - FBSDKShareKit (4.19.0):
     - FBSDKCoreKit
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
@@ -17,14 +17,14 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Kiwi (2.4.0)
-  - SNSSocial (2.0.1):
-    - SNSSocial/Facebook (= 2.0.1)
-    - SNSSocial/Twitter (= 2.0.1)
-  - SNSSocial/Facebook (2.0.1):
-    - FBSDKCoreKit (= 4.16.0)
-    - FBSDKLoginKit (= 4.16.0)
-    - FBSDKShareKit (= 4.16.0)
-  - SNSSocial/Twitter (2.0.1):
+  - SNSSocial (2.0.2):
+    - SNSSocial/Facebook (= 2.0.2)
+    - SNSSocial/Twitter (= 2.0.2)
+  - SNSSocial/Facebook (2.0.2):
+    - FBSDKCoreKit (= 4.19.0)
+    - FBSDKLoginKit (= 4.19.0)
+    - FBSDKShareKit (= 4.19.0)
+  - SNSSocial/Twitter (2.0.2):
     - STTwitter (= 0.2.5)
   - STTwitter (0.2.5)
 
@@ -39,14 +39,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
-  FBSDKCoreKit: 7a6baaed4a2b2a244ba253346713bdbc74df135b
-  FBSDKLoginKit: 9a514a55a7d05190f64d4ef09502737588b5b561
-  FBSDKShareKit: e81505de17fc0624cbaa87b83cccc9f2a786e6cb
+  FBSDKCoreKit: 894b2b6eda6a4c8c4204e92e59cc355709ef045c
+  FBSDKLoginKit: 83ca4d8f12a2022570af9fd6aacf27f6b425b99f
+  FBSDKShareKit: 5953758366278430dc322d5cdc906db361ed7f81
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  SNSSocial: b8636a4d813bc05474083bab2b6dfb6f89304fff
+  SNSSocial: 043ce99c9b110c5f9c9a1b0762c89b798625f972
   STTwitter: 5c157e8dcb4f0e4cf5b4374393021b7d7b7fd497
 
 PODFILE CHECKSUM: 8b7863ba4b6612afc500a2ebb50164b8b2de8aa8
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.0

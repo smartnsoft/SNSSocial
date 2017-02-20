@@ -1,5 +1,9 @@
 ##SNSSocial
 
+###2.0.2
+
+Updates FBSDK dependency (v4.19.0) and migrates sample project to Xcode 8.X
+
 ###2.0.1
 
 Updates FBSDK & STTwitter dependencies
