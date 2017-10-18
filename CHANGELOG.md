@@ -1,5 +1,10 @@
 ##SNSSocial
 
+###2.1.0
+
+Updates FBSDK dependency (~> v4.22.0) and tested with v4.27.1
+ - title, description and picture URL are now ignored from the graph API v2.9
+
 ###2.0.2
 
 Updates FBSDK dependency (v4.19.0) and migrates sample project to Xcode 8.X

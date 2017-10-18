@@ -46,7 +46,6 @@
 /**
  *  Opens dialog to post a status
  *
- *  @param message                  message at posted, required
  *  @param parentViewController     a view controller which will display the dialog (use for sharing with social framework)
  *  @param completionBlock          calls the block after action (returns an error if share failed)
  */
@@ -56,7 +55,7 @@
 /**
  *  Posts a link on the wall's user without using dialog
  *
- *  @param url              a url's link to share (ex : htpp://www.google.fr), the parameter is required
+ *  @param link             a url's link to share (ex : htpp://www.google.fr), the parameter is required
  *  @param title            a title, the parameter is optional
  *  @param description      a description, the parameter is optional
  *  @param pictureUrl       a url's picture, the parameter is optional
@@ -71,25 +70,38 @@
 /**
  *  Posts a link on the wall's user using a dialog
  *
- *  @param url                      a url's link to share (ex : htpp://www.google.fr), the parameter is required
+ *  @param link                     a url's link to share (ex : htpp://www.google.fr), the parameter is required
+ *  @param parentViewController     a view controller which will display the dialog (use for sharing with social framework)
+ *  @param completionBlock          calls the block after action (returns an error if share failed)
+ */
++ (void)postLink:(nonnull NSString *)link
+parentController:(nullable UIViewController *)parentViewController
+      completion:(nullable SNSFacebookCompletionBlock)completionBlock;
+
+/**
+ *  Posts a link on the wall's user using a dialog
+ *
+ *  @param link                      a url's link to share (ex : htpp://www.google.fr), the parameter is required
  *  @param title                    a title, the parameter is optional
  *  @param description              a description, the parameter is optional
- *  @param url                      a url's link to share (ex : htpp://www.google.fr), the parameter is required
  *  @param pictureUrl               a url's picture, the parameter is optional
  *  @param parentViewController     a view controller which will display the dialog (use for sharing with social framework)
  *  @param completionBlock          calls the block after action (returns an error if share failed)
+ *
+ *  @deprecated `title`, `description` and `pictureURL` are deprecated from Graph API 2.9
  */
 + (void)postLink:(nonnull NSString *)link
        withTitle:(nullable NSString*)title
      description:(nullable NSString*)description
       pictureUrl:(nullable NSString*)pictureUrl
 parentController:(nullable UIViewController *)parentViewController
-      completion:(nullable SNSFacebookCompletionBlock)completionBlock;
+      completion:(nullable SNSFacebookCompletionBlock)completionBlock
+__attribute__ ((deprecated("`title`, `description` and `pictureURL` are deprecated from Graph API 2.9")));
 
 /**
  *  Posts a photo with caption on the wall's user without using a dialog
  *
- *  @param photos                   a photo to share
+ *  @param photo                    a photo to share
  *  @param caption                  description of the photo
  *  @param completionBlock          calls the block after action (returns an error if share failed)
  */

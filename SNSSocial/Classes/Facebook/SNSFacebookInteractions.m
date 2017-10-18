@@ -119,36 +119,47 @@ static SNSFacebookInteractions *_sharedInstance = nil;
 }
 
 + (void)postLink:(NSString *)link
+parentController:(UIViewController *)parentViewController
+      completion:(SNSFacebookCompletionBlock)completionBlock
+{
+  if (link != nil && completionBlock != nil)
+  {
+    FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
+    content.contentURL = [NSURL URLWithString:link];
+
+    //Cannot be used anymore since SDK 4.22 using Graph API 2.9
+    //        content.contentTitle = title;
+    //        content.contentDescription = description;
+    //        if (pictureUrl != nil)
+    //        {
+    //            content.imageURL = [NSURL URLWithString:pictureUrl];
+    //        }
+
+    SNSFacebookInteractions *self_ = [SNSFacebookInteractions sharedInstance];
+    self_.retainCompletionBlock = completionBlock;
+    [FBSDKShareDialog showFromViewController:parentViewController
+                                 withContent:content
+                                    delegate:self_];
+  }
+  else
+  {
+    [SNSFacebook callCompletionBlock:completionBlock
+                           withError:[NSError errorWithDomain:@"Invalid attributes"
+                                                         code:SNSFacebookErrorCodeInvalidAttribute
+                                                     userInfo:nil]];
+  }
+}
+
++ (void)postLink:(NSString *)link
        withTitle:(NSString *)title
      description:(NSString *)description
       pictureUrl:(NSString *)pictureUrl
 parentController:(UIViewController *)parentViewController
       completion:(SNSFacebookCompletionBlock)completionBlock
 {
-    if (link != nil && completionBlock != nil)
-    {
-        FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
-        content.contentURL = [NSURL URLWithString:link];
-        content.contentTitle = title;
-        content.contentDescription = description;
-        if (pictureUrl != nil)
-        {
-            content.imageURL = [NSURL URLWithString:pictureUrl];
-        }
-        
-        SNSFacebookInteractions *self_ = [SNSFacebookInteractions sharedInstance];
-        self_.retainCompletionBlock = completionBlock;
-        [FBSDKShareDialog showFromViewController:parentViewController
-                                     withContent:content
-                                        delegate:self_];
-    }
-    else
-    {
-        [SNSFacebook callCompletionBlock:completionBlock
-                               withError:[NSError errorWithDomain:@"Invalid attributes"
-                                                             code:SNSFacebookErrorCodeInvalidAttribute
-                                                         userInfo:nil]];
-    }
+    [SNSFacebookInteractions postLink:link
+                     parentController:parentViewController
+                           completion:completionBlock];
 }
 
 #pragma mark - Sharing Photo -
